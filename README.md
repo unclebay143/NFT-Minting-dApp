@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+## How it works
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Below is the basic flow of how our NFT Minting dApp will function:
 
-## Available Scripts
+- Minters will log in on the dApp by connecting their wallet i.e Metamask. 
 
-In the project directory, you can run:
+![This is how NFT minting dApp works, the user connects their wallet on the dApp](https://cdn.hashnode.com/res/hashnode/image/upload/v1650635577172/ptqD4Mi6p.png)
 
-### `npm start`
+- They will then supply the name, image, and description of the digital asset they want to mint.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![In order to mint an NFT, the name, description and the image of the digital asset must be provided](https://cdn.hashnode.com/res/hashnode/image/upload/v1650633030342/FPWDupIUO.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Our NFT minter will turn the digital asset into an NFT when they click the "Mint NFT" button.
 
-### `npm test`
+![An NFT minter will process the digital asset into an NFT](https://cdn.hashnode.com/res/hashnode/image/upload/v1650636210042/eVfXdRgXY.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- All minted NFTs will be listed on OpenSea Testnet Marketplace where everyone can view them and the owner can also place them for sale 😋.
 
-### `npm run build`
+![When an NFT is minted, the NFT is placed on NFT marketplace like OpenSea](https://cdn.hashnode.com/res/hashnode/image/upload/v1650635869197/XaltaiZdZ.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+We'll be making use of the Testnet environments throughout this tutorial, you can apply the same steps when you're ready to deploy to a Mainnet network.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> A Testnet network is merely a functional prototype that works with fake cryptocurrencies for a blockchain project, while the Mainnet network is a fully built blockchain platform that allows users to perform real cryptocurrency transactions on the blockchain.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+At the end of this tutorial, you'll have a working dApp that allows anyone to mint their digital assets (images) into an NFT.
