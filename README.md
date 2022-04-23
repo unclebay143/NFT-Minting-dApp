@@ -23,3 +23,6 @@ We'll be making use of the Testnet environments throughout this tutorial, you ca
 > A Testnet network is merely a functional prototype that works with fake cryptocurrencies for a blockchain project, while the Mainnet network is a fully built blockchain platform that allows users to perform real cryptocurrency transactions on the blockchain.
 
 At the end of this tutorial, you'll have a working dApp that allows anyone to mint their digital assets (images) into an NFT.
+
+
+Drop a ⭐️ if you find the tutorial helpful!
