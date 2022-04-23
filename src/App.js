@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Header } from "./components/header/Header";
+import NftMinter from "./pages/nft-minter/NftMinter";
+import { MoralisProvider } from "react-moralis";
 
 function App() {
+  const serverUrl = process.env.REACT_APP_MORALIS_SERVER_URL;
+  const appId = process.env.REACT_APP_MORALIS_APP_ID;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MoralisProvider appId={appId} serverUrl={serverUrl}>
+      <div className='App'>
+        <Header />
+        <main>
+          <NftMinter />
+          <div className='App-overlay'></div>
+        </main>
+      </div>
+    </MoralisProvider>
   );
 }
 

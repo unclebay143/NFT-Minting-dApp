@@ -1,0 +1,71 @@
+.minted-nft-section {
+    z-index: 1;
+    margin: 0 auto;
+    padding: 0rem 1rem 1rem 1rem;
+  }
+  
+  .success-message {
+    color: #fff;
+    margin: 20px 0;
+  }
+  
+  .minted-address {
+    margin: 20px 0px;
+  }
+  
+  .minted-address-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .view-btn {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    background: linear-gradient(90deg, #7927ff, #af48ff 80%);
+    background-image: linear-gradient(-250deg, #fff000, #af48ff 50%);
+    color: white;
+  }
+  
+  .view-btn:hover {
+    opacity: 0.8;
+  }
+  
+  .new-mint-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 0;
+  }
+  
+  .new-mint-btn {
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .new-mint-btn:hover {
+    opacity: 0.8;
+  }
+  
+  @media (min-width: 768px) {
+    .minted-address-text {
+      font-size: 1.2rem;
+    }
+  }
+  

@@ -1,0 +1,42 @@
+nav {
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .wallet-btn {
+    background-color: #f5f5f5;
+    border: 1px solid #0f0f0f;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 18px;
+  }
+  
+  .wallet-btn img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .wallet-btn svg {
+    width: 20px;
+    height: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    nav {
+      padding: 2rem 3rem;
+    }
+  
+    .app-name {
+      font-size: 26px;
+    }
+  }
+  
